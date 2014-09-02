@@ -5,18 +5,22 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome=1">
         <title>Manjula Gururaj</title>
         <meta name="Author" content="Manjunath Chintamani" />
         <meta name="description" content="Manjula Gururaj - A versatile Singer, Music Composer, Dubbing Artist...">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+		
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/custom.css"/>
         <!-- <link rel="stylesheet" href="css/main.css"> -->
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/custom.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/plugin.js"></script>
+        <script src="js/vendor/plugin.js"></script>
+        <script src="js/vendor/holder.js"></script>
+                
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -25,11 +29,9 @@
 
         <!-- Add your site or application content here -->
         <header role="banner">
-        
   			<nav role="navigation" class="navbar-fixed-top navbar-default">
-	  			
     			<div class="container">
-    				<div class="navbar-header">
+      				<div class="navbar-header">
       					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
    							<span class="icon-bar"></span>
     						<span class="icon-bar"></span>
@@ -39,8 +41,8 @@
       				</div>
       				<div class="navbar-collapse collapse">
       					<ul class="nav navbar-nav navbar-middle">
-        					<li class="active"><a href="home.html"><span class="glyphicon glyphicon-home" style="width: 20px;"></span>Home</a></li>
-	        				<li><a href="biography.html"><span class="glyphicon glyphicon-headphones" style="width: 20px;"></span>Biography</a></li>
+        					<li><a href="home.html"><span class="glyphicon glyphicon-home" style="width: 20px;"></span>Home</a></li>
+	        				<li class="active"><a href="biography.html"><span class="glyphicon glyphicon-headphones" style="width: 20px;"></span>Biography</a></li>
 		        			<li><a href="music.html"><span class="glyphicon glyphicon-volume-up" style="width: 20px;"></span>Music</a></li>
 		        			<li><a href="photos.html"><span class="glyphicon glyphicon-picture" style="width: 20px;"></span>Photos</a></li>
 		        			<li><a href="videos.html"><span class="glyphicon glyphicon-facetime-video" style="width: 20px;"></span>Videos</a></li>
@@ -71,129 +73,47 @@
 		</header>
 
 		<main role="main">
-		  <div id="homepage-feature" class="carousel slide carousel-fade" data-ride="carousel">
-  			<ol class="carousel-indicators">
-    			<li data-target="#homepage-feature" data-slide-to="0" class="active"></li>
-    			<li data-target="#homepage-feature" data-slide-to="1"></li>
-    			<li data-target="#homepage-feature" data-slide-to="2"></li>
-    			<li data-target="#homepage-feature" data-slide-to="3"></li>
-    		</ol>
-  			<!-- Wrapper for slides -->
-			<div class="carousel-inner">
-				
-  				<div class="item active">
-    				<img src="img/manjulapink2.jpg" alt="Homepage">
-    				<div class="carousel-caption">
-    					<h1>Versatile Singer</h1>
-              <p class="lead"></p>
-              <a class="btn btn-large btn-primary" href="#">Learn More</a>
-
-
-  					</div>
-    				
-  				</div>
-  				<div class="item">
-    				<img src="img/manjulapink.jpg" alt="Homepage">
-					<div class="carousel-caption">
-    					<h1>Music Composer</h1>
-    					<p class="lead"></p>
-						<a class="btn btn-large btn-primary" href="#">Learn More</a>
-  					</div>
-
-  				</div>
-  				<div class="item">
-    				<img src="img/manjulapink3.jpg" alt="Homepage">
-    				<div class="carousel-caption">
-    					<h1>Dubbing Artist</h1>
-						<p class="lead"></p>
-						<a class="btn btn-large btn-primary" href="#">Learn More</a>
-  					</div>
-  				</div>
-  				<div class="item">
-    				<img src="img/manjulapink4.jpg" alt="Homepage">
-    				<div class="carousel-caption">
-    					<h1>Music School</h1>
-						<p class="lead"></p>
-						<a class="btn btn-large btn-primary" href="#">Learn More</a>
- 					</div>
-  				</div>
-  				</div><!-- /.carousel-inner -->
-			</div><!-- /.carousel-inner -->
-  			
-  			<div class="row">
-				<div class="col-sm-12">
-					<p class="text-center trending"><strong>Featured Awards</strong></p>
-				</div> <!-- /. End of Columns -->
-			</div><!-- /.row -->
-			<div class="row">
-				<div id="homepage-feature1" class="carousel slide carousel-fade" data-ride="carousel">
-	  			<ol class="carousel-indicators">
-	    			<li data-target="#homepage-feature1" data-slide-to="0" class="active"></li>
-	    			<li data-target="#homepage-feature1" data-slide-to="1"></li>
-	    			<li data-target="#homepage-feature1" data-slide-to="2"></li>
-	    		</ol>
-	  			<!-- Wrapper for slides -->
-				<div class="carousel-inner">
-				
-					<div class="item active">
-	    				<img src="img/newimages/achievements/machivements.jpg" alt="Bartlesville Symphony Homepage">
-	    				<div class="carousel-caption">
-	    					<h1>Best Playback Singer</h1>
-							<p class="lead"></p>
-							<a class="btn btn-large btn-primary" href="#">Learn More</a>
-	  					</div>
-	  				</div>
-					
-	  				<div class="item">
-	    				<img src="img/newimages/achievements/Abhi.jpg" alt="Nandita Homepage">
-	    				<div class="carousel-caption">
-	    					<h1>Abhipraya award</h1>
-	              <p class="lead"></p>
-	              <a class="btn btn-large btn-primary" href="#">Learn More</a>
-	
-	
-	  					</div>
-	    				
-	  				</div>
-	  				<div class="item">
-	    				<img src="img/newimages/achievements/Karnataka.jpg" alt="OKWU.edu Homepage">
-						<div class="carousel-caption">
-	    					<h1>Best Voice</h1>
-	    					<p class="lead"></p>
-							<a class="btn btn-large btn-primary" href="#">Learn More</a>
-	  					</div>
-	
-	  				</div>
-	  				</div><!-- /.carousel-inner -->
-			
-
-			</div><!-- /.row -->
-			
-			<div class="row">
-				<div class="col-sm-4">
-					
-				</div>	
-				<div class="col-sm-4">
-					<p class="text-center trending"><strong>Trending</strong></p>
-				</div>
-				<div class="col-sm-4">
-					
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="embed-responsive embed-responsive-16by9">
-    				
-    				<iframe class="embed-responsive-item" src="www.youtube.com/embed/UMoDstuquXM?feature=player_embedded&		controls=0&amp;showinfo=0&amp;ps=docs&amp;iv_load_policy=3&amp;modestbranding=1&amp;nologo=1&amp;autohide=1&amp;autoplay=1"></iframe>
-    				
-  						
-					</div>
-				</div> <!-- /. End of Columns -->
-			</div><!-- /.row -->
-			
-
-			
-			</div><!-- /.container -->
+		  
+		  <div class="bg"></div>
+		  <div class="jumbotron">
+		  	<div class="container">
+				  <h1>Biography</h1>
+				  <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+			  </div>
+		  </div>	
+		  
+		 <div class="container">
+		 	<div class="row">
+		 		<div class="col-sm-4">
+		 			<h2>Playback Singer</h2>
+		 			<p>Entered Kannada film industry as a playback singer in November 1983 for the kannada movie Rowdi Raaja, with Music Director Satyam and Director Joe simon.	  	 
+ 	Gained popularity for the very famous hip hop song “Ollage Seridhare Gundu”…from the movie Nanjundi Kalyana (1989) with music Director Upendra Kumar. Has made an incredible mark on the South Indian music scenario.	 
+ 	 	 
+ 	She has also worked with the most esteemed Music Directors of many states.	 
+ 	 	 
+ 	To date she has sung more than 2,000 film songs in seven languages.
+ 	Has sung more than 12,500 songs in, devotional, bhavageethe, folk, non-filmy, Indi pop, vachana’s dasara padha, semi classical, bhajans ghazals, chaudki padha, etc., in 9 languages.	 
+ 	 	 
+ 	Has sung suprabhathas on numerous deities in 6 languages amounting to 98 variants in all. This came very close to entering the Guinness book of world records.
+ 	</p>
+		 		</div>
+		 		<div class="col-sm-4">
+		 			<h2>Concerts</h2>
+		 			<p>Has sung and won the hearts of many in giving more than 4,000 live performances from the tender age of 7.
+ 	 
+-
+Has not only performed in India, but also in the USA, CANADA, AUSTRALIA, NEWZEALAND, SINGAPORE, HONGKONG, MALAYSIA, and U.A.E..</p>
+		 		</div>
+		 		<div class="col-sm-4">
+		 			<h2>Dubbing Artist</h2>
+		 			<p>Started as a dubbing artist in 1982 for the movie ‘Ahuthi’ directed by T.S.Nagabharana where she lent her voice to the heroin Sumalatha. As a dubbing artist, Smt.Manjula Gururaj has excelled and gained recognition in one of the considered most difficult form of art in the film industry.	 
+ 	 	 
+ 	 	 
+ 	Was awarded by a special jury from Karnataka State Government as the Best Voice for the film Beladingalla Baale, in which she lent her voice for the heroin who was heard, but not seen.</p>
+		 		</div>
+		 	</div> <!-- End of Row -->
+		 </div> <!-- End of Container -->
+		  
 		</main>
 
 		<footer role="contentinfo">
@@ -211,7 +131,7 @@
 					   <button class="btn btn-link">
 				     		<i class="mi-social-icon fa fa-twitter-square fa-2x"></i>
 					 	</button>
-					    <button id="youtube" class="btn btn-link">
+					   <button id="youtube" class="btn btn-link">
 					     <i class="mi-social-icon fa fa-youtube-square fa-2x"></i>
 					   </button>
 					   <button class="btn btn-link">
@@ -240,9 +160,10 @@
 	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+       <script src="js/main.js"></script>
         <script src="js/bootstrap/bootstrap.js"></script>
         <script src="js/custom.js"></script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

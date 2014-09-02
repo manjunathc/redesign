@@ -1,0 +1,243 @@
+/*!
+ * custom css 
+ * Homepage: 
+ * Copyright 2012-2014 Thomas Park
+ * Licensed under MIT
+ * Based on Bootstrapspan
+*/
+
+/* NavBar changes */
+.trending {
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  font-size: 60px;
+  text-align: "center";
+}
+
+/* Ends here */
+
+
+
+
+.bg {
+  background: url('/Users/mchintamani/Documents/Manju/software/re-imagine-music/img/maxresdefault_Asha.jpg') no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+  padding: 10px 10px;
+}
+
+.jumbotron {
+  margin-bottom: 30px;
+  height: 350px;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  background:transparent;
+  padding-top:150px;
+}
+
+
+ /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+	.carousel img {
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 650px;
+    }
+	
+	.carousel-indicators {
+ 	   bottom: 240px;
+ 	 }
+	
+    .carousel-caption {
+      background-color: transparent;
+      max-width: 550px;
+      padding: 0 20px;
+      margin:0 auto;
+      margin-bottom: 250px;
+      text-align:center;
+          }
+    
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 18px 17px 17px rgba(10,10,10,10);
+      font-size: 60px;
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+	.carousel-control {
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  width: 15%;
+	  opacity: 0.5;
+	  filter: alpha(opacity=50);
+	  font-size: 50px;
+	  color: #ffffff;
+	  text-align: center;
+	  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+	  z-index: 50;
+	}
+	.carousel-control.left {
+	  background-image: -webkit-linear-gradient(left, rgba(f, f, f, 0.5) 0%, rgba(f, f, f, 0.0001) 100%);
+	  background-image: -o-linear-gradient(left, rgba(f, f, f, 0.5) 0%, rgba(f, f, f, 0.0001) 100%);
+	  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(f, f, f, 0.0001) 100%);
+	  background-repeat: repeat-x;
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	}
+	.carousel-control.right {
+	  left: auto;
+	  right: 0;
+	  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+	  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+	  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+	  background-repeat: repeat-x;
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+	}
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel a img {
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 450px;
+     }
+      
+     .carousel-indicators {
+ 	   bottom: 100px;
+ 	 }
+ 	 
+      .carousel-caption {
+        width: 65%;
+        padding: 0 35px;
+        margin-bottom: 75px;
+      }
+      .carousel-caption h1 {
+        font-size: 20px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 12px;
+      }
+      
+      .carousel-inner > .item > img {
+	     top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 450px; 
+      }
+      
+      .trending {
+		  color: white;
+		  text-shadow: black 0.3em 0.3em 0.3em;
+		  font-size: 40px;
+		  text-align: "center";
+		}
+      
+     
+    }
+
+
+    @media (max-width: 767px) {
+
+      
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+   
+       .carousel-caption {
+		width: 45%;
+        padding: 0 35px;
+        margin-bottom: 75px;
+    }
+    
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    
+    .carousel-inner > .item > img {
+	     top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 450px; 
+      }
+    
+    .carousel-indicators {
+ 	   bottom: 60px;
+ 	 }
+ 	 
+ 	 .trending {
+		  color: white;
+		  text-shadow: black 0.3em 0.3em 0.3em;
+		  font-size: 20px;
+		  text-align: "center";
+		}
+      
+    }
+
+
+
+
+
+ /* Fade In Feature
+    -------------------------------------------------- */
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+
+
+/* Social icons */
+
+.mi-social-icon {
+  font-size: 1.5em;
+}
+
+
+
+
